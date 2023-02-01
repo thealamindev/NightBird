@@ -1,0 +1,558 @@
+p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h2,
+h3,
+h4 {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.pl {
+    padding-left: 0;
+}
+
+.pr {
+    padding-right: 0;
+}
+
+.plr {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a {
+    outline: 0;
+    color: #fff;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+}
+
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+.about_right_img img,
+.about_left_img img,
+.home_gallary_img img {
+    width: 100%;
+}
+
+.back-top-btn,
+.side_categori table tr td a,
+.navbar-toggle,
+.icon-bar,
+.left_arrow_about,
+.right_arrow_about,
+.logo img,
+.blog_media a,
+.tag a,
+.side_categori table td,
+.side_tab ul li a,
+.tab-content .media-heading,
+.map_inner a,
+.comment [type="submit"],
+.all_inner_banner .breadcrumb li a,
+.plan_price a,
+.custom_nav ul > li > a:after,
+.testmonial_img img,
+.dropdown-menu,
+.custom_nav.navbar-fixed-top,
+.left_arrow_testmonial,
+.right_arrow_testmonial,
+.left_arrow_blog,
+.right_arrow_blog,
+.right_arrow_up,
+.left_arrow_up,
+.left_arrow,
+.right_arrow,
+.bottom_footer p a,
+.footer_socil i,
+.instagram_potho img,
+.footer_part .media .media-body a,
+.plan_price,
+.plan_price:hover .price_dol h3,
+.plan_price:hover .price_dol_top:after,
+.plan_price:hover .price_dol,
+.hm_event_img img,
+.about_left_img img,
+.about_right_img img,
+.home_gallary_img img,
+.overlay,
+.over_link a,
+.all_btn,
+.slide-caption a,
+ul.slick-dots li button,
+.custom_nav ul li a {
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -ms-transition: all .4s;
+}
+
+.slick-dots,
+.custom_nav ul li a:after {
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.map_inner .container,
+.plan_price .price_dol h3,
+.coun_time,
+.over_link,
+.caprion_wrapper {
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.gallery_page:after,
+.all_inner_banner:after,
+.footer_part:after,
+.price_dol_top:after,
+.plan_price h3 span:after,
+.testimonial_text:after,
+.testimonial:after,
+.home_gallery:after,
+.event_inner:after,
+#slider .slid_div:after,
+.custom_nav ul li a:after {
+    content: '';
+    position: absolute;
+}
+
+.map_inner,
+.gallery_page:after,
+#slider .slid_div:after,
+.all_inner_banner:after,
+.footer_part:after,
+.testimonial:after,
+.event_inner:after,
+.home_gallery:after {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .9);
+}
+
+.tab_img_div,
+.about_slid_main,
+.testimonial .container,
+.home_blog .container,
+.event_inner .container,
+.home_dj_part .container,
+#map .container,
+.gallery_page .row,
+.all_inner_banner .row,
+.dj_slider_mani,
+.bottom_footer,
+.footer_part .row,
+.plan_price .price_dol,
+.testimonial .row,
+.event_inner .row,
+.home_gallery .row {
+    position: relative;
+    z-index: 9;
+}
+
+
+/*all section common css */
+
+.gallery_main_div,
+.hm_plan,
+.home_blog,
+.home_dj_part,
+.home_about_part {
+    padding: 70px 0 75px 0;
+}
+
+.section_head {
+    padding-bottom: 30px;
+}
+
+.section_head h2 {
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+
+
+/* dutton css */
+
+.all_btn {
+    font-weight: 600;
+    font-size: 14px;
+    height: 35px;
+    width: 130px;
+    display: inline-block;
+    line-height: 31px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-family: 'Dosis', sans-serif;
+    border: 2px solid;
+}
+
+
+/* back to top button css */
+
+.back-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    z-index: 999;
+    display: none;
+}
+
+
+/* overly css */
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 95, 131, .5);
+    box-shadow: 0 0 0 10px rgba(129, 130, 135, .5) inset;
+    -webkit-box-shadow: 0 0 0 10px rgba(129, 130, 135, .5) inset;
+    opacity: 0;
+}
+
+.tab-content .media:hover .overlay,
+.home_gallary_img:hover .overlay,
+.home_blog_div:hover .home_gallary_img .overlay {
+    height: 100%;
+    opacity: 1;
+}
+
+.plan_price .price_dol h3,
+.over_link {
+    position: relative;
+    top: 50%;
+}
+
+
+/* all background and hover css */
+
+.back-top-btn:focus,
+.back-top-btn:hover,
+.footer_part .media .media-body a:focus,
+.right_arrow_about:hover,
+.left_arrow_about:hover,
+.blog_media a:hover,
+.tag a:hover,
+.side_categori table tr:hover td,
+.side_categori table tr:hover td a,
+.side_categori table tr td a:focus,
+.side_tab ul li.active a:hover,
+.tab-content .media:hover .media-heading,
+.map_inner a:focus,
+.map_inner a:hover,
+.map_inner i,
+.comment [type="submit"]:hover,
+.all_inner_banner .breadcrumb li a:hover,
+.all_inner_banner .breadcrumb .active,
+.plan_price a:focus,
+.plan_price a:hover,
+.slide-caption h3 span,
+.slide-caption h2 span,
+.nav>li.active>a,
+.nav>li>a:focus,
+.nav>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.all_btn:focus,
+.left_arrow_testmonial:hover,
+.right_arrow_testmonial:hover,
+.left_arrow_blog:hover,
+.right_arrow_blog:hover,
+.right_arrow_up:hover,
+.left_arrow_up:hover,
+.left_arrow:hover,
+.right_arrow:hover,
+.bottom_footer p a,
+.footer_part .media .media-body a:hover,
+.testimonial_text i,
+.plan_price .price_dol h3,
+.coun_time h2,
+.coun_time p,
+.over_link a:hover,
+.all_btn:hover,
+.custom_nav ul li.active > a,
+.custom_nav ul > li:hover > a {
+    color: #ff5f83;
+}
+
+.back-top-btn,
+.navbar-toggle:hover .icon-bar,
+.navbar-toggle,
+.footer_socil i:hover,
+.footer_part .media .media-left i,
+.plan_price:hover .price_dol_top:after,
+.plan_price:hover .price_dol,
+.plan_price a,
+.plan_price h3 span:after,
+.all_btn {
+    background: #ff5f83;
+}
+
+.blog_media a,
+.bottom_footer p a:hover,
+.footer_socil i:hover,
+.footer_part .media .media-left i,
+.plan_price:hover .price_dol h3,
+.all_btn {
+    color: #fff;
+}
+
+.back-top-btn:hover,
+.back-top-btn:focus,
+.navbar-toggle:hover,
+.icon-bar,
+.newsletter .form-control:focus,
+.map_inner i,
+.comment [type="submit"]:hover,
+.plan_price a:focus,
+.plan_price a:hover,
+.all_btn:focus,
+.over_link a:hover,
+.all_btn:hover {
+    background: #fff;
+}
+
+.back-top-btn,
+.newsletter .form-control:focus,
+.tag a:hover,
+.side_search .form-control:focus,
+.comment .form-control:focus,
+.comment [type="submit"],
+.all_btn,
+.footer_socil i:hover {
+    border-color: #ff5f83;
+}
+
+.custom_nav {
+    border-bottom-color: #633c5f
+}
+
+.over_link a {
+    border-color: #fff;
+}
+
+.instagram_potho:hover img,
+.hm_event_img:hover img,
+.about_left_img:hover img,
+.about_right_img:hover img,
+.home_gallary_img:hover img {
+    transform: scale(1.2);
+}
+
+
+/* slider arrow css */
+
+.left_arrow_about,
+.right_arrow_about,
+.left_arrow_testmonial,
+.right_arrow_testmonial,
+.left_arrow_blog,
+.right_arrow_blog,
+.right_arrow_up,
+.left_arrow_up,
+.left_arrow,
+.right_arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 999;
+}
+
+.left_arrow_about,
+.left_arrow_testmonial,
+.left_arrow_blog,
+.left_arrow_up,
+.left_arrow {
+    left: -15px;
+}
+
+.right_arrow_about,
+.right_arrow_testmonial,
+.right_arrow_blog,
+.right_arrow_up,
+.right_arrow {
+    right: -15px;
+}
+
+.about_slid_main:hover .right_arrow_about,
+.about_slid_main:hover .left_arrow_about,
+.custom_nav ul > li > a:focus:after,
+.custom_nav ul > li.active > a:after,
+.custom_nav ul > li:hover > a:after,
+.home_testimonial:hover .left_arrow_testmonial,
+.home_testimonial:hover .right_arrow_testmonial,
+.home_blog:hover .left_arrow_blog,
+.home_blog:hover .right_arrow_blog,
+.home_event_part:hover .left_arrow_up,
+.home_event_part:hover .right_arrow_up,
+.home_dj_part:hover .right_arrow,
+.home_dj_part:hover .left_arrow {
+    opacity: 1;
+}
+
+.testmonial_img:hover img,
+.instagram_potho:hover img,
+.hm_event_img:hover img,
+.about_right_imghover img,
+.about_left_img:hover img {
+    filter: contrast(120%);
+    -webkit-filter: contrast(120%);
+}
+
+
+/* animation css */
+
+.bar-c {
+    overflow: hidden;
+    height: 30px;
+    width: 40px;
+    margin: 0 auto;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+.bar {
+    height: 1px;
+    width: 4px;
+    display: inline-block;
+    background-color: #ff5f83;
+    bottom: 0;
+    margin: 0 5px;
+    position: absolute;
+    -webkit-animation-duration: 500ms;
+    -webkit-animation-play-state: running;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.bar.noAnim {
+    -webkit-animation: none;
+    -webkit-animation-name: none;
+}
+
+.bar#bar-1 {
+    left: 0;
+    -webkit-animation-name: danceHeight1;
+    -webkit-animation-delay: 0ms;
+}
+
+.bar#bar-2 {
+    left: 6px;
+    -webkit-animation-name: danceHeight2;
+    -webkit-animation-delay: 300ms;
+}
+
+.bar#bar-3 {
+    left: 12px;
+    -webkit-animation-name: danceHeight3;
+    -webkit-animation-delay: 600ms;
+}
+
+.bar#bar-4 {
+    left: 18px;
+    -webkit-animation-name: danceHeight4;
+    -webkit-animation-delay: 900ms;
+}
+
+.bar#bar-5 {
+    left: 24px;
+    -webkit-animation-name: danceHeight5;
+    -webkit-animation-delay: 1200ms;
+}
+
+.bar#bar-6 {
+    left: 30px;
+    -webkit-animation-name: danceHeight6;
+    -webkit-animation-delay: 1500ms;
+}
+
+@-webkit-keyframes danceHeight1 {
+    from {
+        height: 1px;
+    }
+    to {
+        height: 22px;
+    }
+}
+
+@-webkit-keyframes danceHeight2 {
+    from {
+        height: 1px;
+    }
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight3 {
+    from {
+        height: 1px;
+    }
+    to {
+        height: 30px;
+    }
+}
+
+@-webkit-keyframes danceHeight4 {
+    from {
+        height: 1px;
+    }
+    to {
+        height: 20px;
+    }
+}
+
+@-webkit-keyframes danceHeight5 {
+    from {
+        height: 1px;
+    }
+    to {
+        height: 15px;
+    }
+}
+
+@-webkit-keyframes danceHeight6 {
+    from {
+        height: 1px;
+    }
+    to {
+        height: 15px;
+    }
+}
